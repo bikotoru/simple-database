@@ -1,6 +1,6 @@
 {
-  "name": "simple-database",
-  "version": "1.0.0",
+  "name": "@bikotoru/simple-database",
+  "version": "1.0.1",
   "description": "this library has simple connections to a database, without being an ORM",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
