@@ -41,7 +41,7 @@ export class SqlServer {
   public async execute(query: string, isSelect = true): Promise<any> {
     await sql.connect(this.connectionString);
     const result = await new sql.Request().query(query);
-    sql.close();
+    await sql.close();
     if (isSelect) {
       return result.recordset;
     }
